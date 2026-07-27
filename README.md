@@ -12,6 +12,11 @@ A collection of my hands-on ML learnings, covering everything from the math fund
 | **univariate analysis/** | EDA — Univariate | Exploring individual features using distributions, summary stats & visualizations |
 | **multivariate/** | EDA — Multivariate | Analyzing relationships between multiple features (Titanic dataset) |
 | **Standardization Z score/** | Feature Scaling | Z-score standardization & its effect on model performance (Social Network Ads) |
+| **Encoding/** | Feature Encoding | Ordinal, Label & One-Hot encoding techniques (customer & cars datasets) |
+| **Outlier Detection/** | Outlier Handling | Detecting & treating outliers using IQR and Z-score methods (placement data) |
+| **column_transformer/** | Column Transformer | Applying different preprocessing steps to different columns with `ColumnTransformer` (COVID toy dataset) |
+| **scikitlearn pipeline/** | Sklearn Pipeline | Building end-to-end ML pipelines combining preprocessing & modelling (Titanic dataset) |
+| **PCA/** | Dimensionality Reduction | Principal Component Analysis for feature reduction & visualization (Titanic dataset) |
 
 ---
 
@@ -48,6 +53,11 @@ pip install numpy pandas matplotlib seaborn scikit-learn torch
 - [x] Univariate analysis & EDA
 - [x] Multivariate analysis & EDA
 - [x] Feature scaling — Standardization (Z-score)
+- [x] Feature encoding — Ordinal, Label & One-Hot
+- [x] Outlier detection — IQR & Z-score methods
+- [x] Column Transformer
+- [x] Scikit-learn Pipelines
+- [x] Principal Component Analysis (PCA)
 - [ ] More topics coming soon...
 
 ---
